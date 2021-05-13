@@ -17,24 +17,25 @@
 
 - Models used
    - **Lightweight OpenPose**
-   - **l**
 
 - How to Run?
    - clone the Repository
-      - git clone https://github.com/Tarun-Sharma9168/Optimal_Control_And_Decision_Making.git    
-   - go to the codes/stochastic_model/ directory and run the below command.
-   - julia stochastic_model.jl
-   
+   - download the pretrained model for lightweight openpose [here](https://download.01.org/opencv/openvino_training_extensions/models/human_pose_estimation/checkpoint_iter_370000.pth).
+   - run Part_1/imitation_p_1.py to create data folder and save the data in folder.
+   - For feed forward network run Part_2/FNN_network.py
+   - For Convolutional neural network run Part_2/CNN_network.py
+   - both files will plot loss values plot for training
 
 - Series of Experiments
-  - R0 values used
-      - 2.5
-      - 3.5
+  - Simple movements are tested only where limbs movement are not fast.
   - Cases
-      - 1
-      - 7
-      - 14
-      - 28
+      - Adult Male normal walking
+      - Adult Female normal walking
+      - Adult Male long stride walking
+      - Adult Female long stride walking
+
+- imitation_p_1.py will generate joint data angles from the video and save them in a .txt file for each joint, file hierarchy for joint data will be
+      
 - In codes Section the code is available with name stochastic_model.jl. It will generate six main plots simulation_confidence_interval 2.5.jpeg, simulation_confidence_interval 3.5.jpeg, simulation_exposed_infected 2.5.jpeg, simulation_exposed_infected 3.5.jpeg, simulation_SEIR 2.5.jpeg, simulation_SEIR 3.5.jpeg when you applied the control.You can run the code without control by making the control_applied parameter=false.
 - simulation_SEIR 2.5.jpeg, simulation_SEIR 3.5.jpeg are the main plots to visualize when you run without control.
  
