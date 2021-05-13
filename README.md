@@ -1,39 +1,23 @@
 # Imitation-Learning-in-bipedal-robots
-## Optimal_Control_And_Decision_Making
 
 - publication
-  - **On the Economy-healthcare Trade-off: Stochastic Optimal Control of Epidemics via Parsimonious Models and Markov Decision Processes, with Application to India's COVID-19 Outbreak**
-
+  
 - **Requirements**
    - _Programming languages:_
-      - julia
+      - Python
          - **packages**
-             - tidyverse
-             - lubridate
-             - ggplot2
-             - ggpubr
-             - plyr
-             - ggsci
-
-   
-      - R
-        - **packages**
-            - Distributions
-            - StatsBase
-            - Statistics
-            - ProgressMeter
-            - CSV
-            - DataFrames
-            - RCall
-            - StatsPlots
-
-
+             - PyBullet
+             - Numpy
+             - PyTorch
+             - OpenCV
+             - Matplotlib
+             - Pandas
+             - Gym
 
 
 - Models used
-   - **Model for finding the optimal control.**
-
-   - **Stochastic epidemic model which models the pandemic.**
+   - **Lightweight OpenPose**
+   - **l**
 
 - How to Run?
    - clone the Repository
