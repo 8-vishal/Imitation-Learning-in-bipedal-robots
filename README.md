@@ -34,17 +34,6 @@
       - Adult Male long stride walking
       - Adult Female long stride walking
 
-- imitation_p_1.py will generate joint data angles from the video and save them in a .txt file for each joint, running FNN_network.py and CNN_Network.py will train the model and plot its loss, by running the function data_plot() in Part_1/UTILS.py will generate a plot which compare the original data and smoothed data from savitzky_golay filter and save the figure as smoothed_data.png. File hierarchy for joint data will be:-
-   _Data_
-      _Angles_
-          _Case_1
-              _l_elbow_
-              _l_knee_
-              _l_shoulder_
-              _l_thigh_
-              _r_elbow_
-              _r_knee_
-              _r_shoulder_
-              _r_thigh_
+- imitation_p_1.py will generate joint data angles from the video and save them in a .txt file for each joint, running FNN_network.py and CNN_Network.py will train the model and plot its loss, by running the function data_plot() in Part_1/UTILS.py will generate a plot which compare the original data and smoothed data from savitzky_golay filter and save the figure as smoothed_data.png. 
                     
 > Thankyou Dr. Sinnu Susan Thomas(IIITMK) for making this project successful.
