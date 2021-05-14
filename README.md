@@ -36,5 +36,4 @@
       - Adult Female long stride walking
 
 - imitation_p_1.py will generate joint data angles from the video and save them in a .txt file for each joint, running FNN_network.py and CNN_Network.py will train the model and plot its loss, by running the function data_plot() in Part_1/UTILS.py will generate a plot which compare the original data and smoothed data from savitzky_golay filter and save the figure as smoothed_data.png. 
-                    
-> Thankyou Dr. Sinnu Susan Thomas(IIITMK) for making this project successful.
+                   
