@@ -34,23 +34,17 @@
       - Adult Male long stride walking
       - Adult Female long stride walking
 
-- imitation_p_1.py will generate joint data angles from the video and save them in a .txt file for each joint, file hierarchy for joint data will be
-      
-- In codes Section the code is available with name stochastic_model.jl. It will generate six main plots simulation_confidence_interval 2.5.jpeg, simulation_confidence_interval 3.5.jpeg, simulation_exposed_infected 2.5.jpeg, simulation_exposed_infected 3.5.jpeg, simulation_SEIR 2.5.jpeg, simulation_SEIR 3.5.jpeg when you applied the control.You can run the code without control by making the control_applied parameter=false.
-- simulation_SEIR 2.5.jpeg, simulation_SEIR 3.5.jpeg are the main plots to visualize when you run without control.
- 
-> Thankyou all the contributors for making this project successful.
-- Contributors
-  - Dr Sinnu Susan Thomas(IIITMK)
-  - Dr Edilson F. Arruda (University Of Southampton)
-  - Rodrigue E.A. Alexandre (Federal University)
-
-<a href="https://github.com/remarkablemark">
-  <img src="https://github.com/Tarun-Sharma9168/Optimal_Control_And_Decision_Making/blob/main/contri_images/sinnu_mam.png" width="150" height="150">
-</a>
-<a href="https://github.com/remarkablemark">
-  <img src="https://github.com/Tarun-Sharma9168/Optimal_Control_And_Decision_Making/blob/main/contri_images/edilson_arruda.jpg" width="150" height="150">
-</a>
-<a href="https://github.com/remarkablemark">
-  <img src="https://github.com/Tarun-Sharma9168/Optimal_Control_And_Decision_Making/blob/main/contri_images/foto_rodrigo.jpeg" width="150" height="150">
-</a>
+- imitation_p_1.py will generate joint data angles from the video and save them in a .txt file for each joint, running FNN_network.py and CNN_Network.py will train the model and plot its loss, by running the function data_plot() in Part_1/UTILS.py will generate a plot which compare the original data and smoothed data from savitzky_golay filter and save the figure as smoothed_data.png. File hierarchy for joint data will be:-
+   _Data_
+      _Angles_
+          _Case_1
+              _l_elbow_
+              _l_knee_
+              _l_shoulder_
+              _l_thigh_
+              _r_elbow_
+              _r_knee_
+              _r_shoulder_
+              _r_thigh_
+                    
+> Thankyou Dr. Sinnu Susan Thomas(IIITMK) for making this project successful.
