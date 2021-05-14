@@ -186,8 +186,7 @@ def run_demo(net, image_provider, height_size, cpu, track, smooth):
 
 if __name__ == '__main__':
     net = PoseEstimationWithMobileNet()
-    checkpoint = torch.load("./checkpoint_iter_370000.pth",
-                            map_location='cpu')
+    checkpoint = torch.load("./checkpoint_iter_370000.pth", map_location='cpu')
     load_state(net, checkpoint)
 
     frame_provider = VideoReader("../DATA/VIDEOS/walk_female_1.mp4")
